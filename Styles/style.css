@@ -1,0 +1,324 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    min-height: 100vh; 
+
+    background-color: rgb(48, 48, 48);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.Screen {
+    width: 360px;
+    height: 780px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+.ScreenChild {
+
+    width: 100%;
+
+}
+
+.ScreenChild.HeaderPanel {
+    height: 25px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 5px;
+
+}
+
+.HeaderElement {
+    height: 100%;
+    width: 30px;
+    flex: auto;
+    vertical-align: middle;
+    line-height: 25px;
+    padding: 0px 5px;
+}
+
+.HeaderElement.back{
+    font-size: 15px;
+    flex:1;
+    font-weight: bold;
+
+    text-indent: 6px;
+}
+
+.HeaderElement.title{
+    font-size: 20px;
+    flex:2;
+    text-align: center;
+}
+
+.HeaderElement.placeholder
+{
+    flex:1
+}
+
+.ScreenChild.TipPanel {
+    /* border: 1px solid blue; */
+    flex: 3;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.TipElement.Tip {
+    font-size: 15px;
+    text-align: center;
+
+    padding: 5px 20px;
+}
+
+.TipElement.TipContent {
+    font-size: 25px;
+    text-align: center;
+
+    padding: 5px 20px;
+}
+
+
+.ScreenChild.MissingTries {
+    /* border: 1px solid purple; */
+    flex: 1;
+
+
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+.MissingTriesElement.Squares{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.MissingTriesSquareEmpty{
+    width: 36px;
+    height: 36px;
+
+    margin: 1px 3px 1px;
+
+    background-color: #ededed;
+    color: #bcbcbc;
+
+    font-size: 20pt;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.MissingTriesSquarePast{
+    width: 36px;
+    height: 36px;
+
+    margin: 1px 3px 1px;
+
+    background-color: #c5c5c5;
+    color: #4b515e;
+
+    font-size: 20pt;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.MissingTriesSquareCurrent{
+    width: 36px;
+    height: 36px;
+
+    margin: 1px 3px 1px;
+
+    background-color: #676767;
+    color: #F5F5F5;
+
+    font-size: 20pt;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.MissingTriesElement.MissingTries{
+    text-align: center;
+    padding: 0px 20px 5px;
+
+    margin-top: 5px;
+}
+
+
+.ScreenChild.GamePanel {
+    /* border: 1px solid green; */
+    flex: 3;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.MissingTriesElement.Squares{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.GamePanelSquares.Row
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3px;
+}
+
+
+.GamePanelSquare{
+    width: 26px;
+    height: 26px;
+
+    margin: 1px 1px 1px;
+
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 3px;
+    text-align: center;
+
+    text-transform: uppercase;
+
+    font-size: 14pt;
+
+    font-family: 'Red Hat Mono', monospace;
+
+}
+
+.GamePanelSquare:disabled
+{
+    border: 1px solid rgb(179, 179, 179);
+}
+
+
+.PreenchidoRight
+{
+    background-color: #08ba04;
+    color: white;
+}
+
+
+.PreenchidoWrong
+{
+    background-color: #787c7e;
+    color: white;
+}
+
+.PreenchidoSemiRight{
+    background-color: #c9b458 !important;
+    color: white !important;
+}
+
+
+
+
+.ScreenChild.Footer {
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.FooterSquare{
+    width: 29px;
+    height: 32px;
+
+
+    margin: 0px 1px;
+    background-color: #d3d6da;
+
+    color:rgb(20, 19, 26);
+
+    border-radius: 3px;
+    text-align: center;
+
+    line-height: 32px;
+
+    text-transform: uppercase;
+
+    font-size: 7pt;
+    font-weight: bold;
+}
+
+.FooterSquareSubmeter{
+    width: 29px;
+    height: 32px;
+
+
+    margin: 0px 1px;
+    background-color: #d3d6da;
+
+    color:rgb(20, 19, 26);
+
+    border-radius: 3px;
+    text-align: center;
+
+    line-height: 32px;
+
+    text-transform: uppercase;
+
+    font-size: 7pt;
+    font-weight: bold;
+}
+
+.footerDisapear
+{
+    opacity: 40%;
+}
+

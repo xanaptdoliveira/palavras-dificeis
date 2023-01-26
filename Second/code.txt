@@ -1,0 +1,283 @@
+<div id='pista1-alvíssaras' class='pista1-alvíssaras'>
+<div id='rectangle90' class='rectangle90'>
+</div>
+<div id='rectangle126' class='rectangle126'>
+</div>
+<div id='rectangle127' class='rectangle127'>
+</div>
+<div id='rectangle128' class='rectangle128'>
+</div>
+<div id='rectangle129' class='rectangle129'>
+</div>
+<div id='rectangle130' class='rectangle130'>
+</div>
+<div id='rectangle61' class='rectangle61'>
+</div>
+<div id='rectangle62' class='rectangle62'>
+</div>
+<div id='rectangle63' class='rectangle63'>
+</div>
+<div id='rectangle64' class='rectangle64'>
+</div>
+<div id='rectangle65' class='rectangle65'>
+</div>
+<div id='rectangle91' class='rectangle91'>
+</div>
+<div id='rectangle92' class='rectangle92'>
+</div>
+<div id='rectangle93' class='rectangle93'>
+</div>
+<div id='rectangle94' class='rectangle94'>
+</div>
+<div id='rectangle95' class='rectangle95'>
+</div>
+<div id='rectangle67' class='rectangle67'>
+</div>
+<div id='rectangle68' class='rectangle68'>
+</div>
+<div id='rectangle69' class='rectangle69'>
+</div>
+<div id='rectangle70' class='rectangle70'>
+</div>
+<div id='rectangle71' class='rectangle71'>
+</div>
+<div id='rectangle73' class='rectangle73'>
+</div>
+<div id='rectangle79' class='rectangle79'>
+</div>
+<div id='rectangle85' class='rectangle85'>
+</div>
+<div id='rectangle74' class='rectangle74'>
+</div>
+<div id='rectangle80' class='rectangle80'>
+</div>
+<div id='rectangle86' class='rectangle86'>
+</div>
+<div id='rectangle75' class='rectangle75'>
+</div>
+<div id='rectangle81' class='rectangle81'>
+</div>
+<div id='rectangle87' class='rectangle87'>
+</div>
+<div id='rectangle76' class='rectangle76'>
+</div>
+<div id='rectangle82' class='rectangle82'>
+</div>
+<div id='rectangle88' class='rectangle88'>
+</div>
+<div id='rectangle131' class='rectangle131'>
+</div>
+<div id='rectangle77' class='rectangle77'>
+</div>
+<div id='rectangle83' class='rectangle83'>
+</div>
+<div id='rectangle89' class='rectangle89'>
+</div>
+<div id='rectangle96' class='rectangle96'>
+</div>
+<div id='rectangle97' class='rectangle97'>
+</div>
+<div id='rectangle98' class='rectangle98'>
+</div>
+<div id='rectangle99' class='rectangle99'>
+</div>
+<div id='rectangle100' class='rectangle100'>
+</div>
+<div id='rectangle101' class='rectangle101'>
+</div>
+<div id='rectangle102' class='rectangle102'>
+</div>
+<div id='rectangle103' class='rectangle103'>
+</div>
+<div id='rectangle104' class='rectangle104'>
+</div>
+<div id='rectangle105' class='rectangle105'>
+</div>
+<div id='rectangle106' class='rectangle106'>
+</div>
+<div id='rectangle107' class='rectangle107'>
+</div>
+<div id='rectangle108' class='rectangle108'>
+</div>
+<div id='rectangle109' class='rectangle109'>
+</div>
+<div id='rectangle111' class='rectangle111'>
+</div>
+<div id='rectangle112' class='rectangle112'>
+</div>
+<div id='rectangle113' class='rectangle113'>
+</div>
+<div id='rectangle114' class='rectangle114'>
+</div>
+<div id='rectangle115' class='rectangle115'>
+</div>
+<div id='rectangle116' class='rectangle116'>
+</div>
+<div id='rectangle117' class='rectangle117'>
+</div>
+<div id='rectangle118' class='rectangle118'>
+</div>
+<div id='rectangle119' class='rectangle119'>
+</div>
+<div id='rectangle110' class='rectangle110'>
+</div>
+<div id='o' class='o'>
+O</div>
+<div id='ã' class='ã'>
+Ã </div>
+<div id='ç' class='ç'>
+Ç</div>
+<div id='a63' class='a63'>
+A </div>
+<div id='i2' class='i2'>
+I </div>
+<div id='c62' class='c62'>
+C</div>
+<div id='e62' class='e62'>
+E</div>
+<div id='r63' class='r63'>
+R</div>
+<div id='p2' class='p2'>
+P</div>
+<div id='a64' class='a64'>
+A</div>
+<div id='prémiodadoaquemapresentaobjetosperdidosouaquemdáumanotíciaagradável.' class='prémiodadoaquemapresentaobjetosperdidosouaquemdáumanotíciaagradável.'>
+Prémio dado a quem apresenta objetos perdidos ou a quem dá uma notícia agradável.</div>
+<div id='rectangle120' class='rectangle120'>
+</div>
+<div id='rectangle121' class='rectangle121'>
+</div>
+<div id='rectangle122' class='rectangle122'>
+</div>
+<div id='rectangle123' class='rectangle123'>
+</div>
+<div id='rectangle124' class='rectangle124'>
+</div>
+<div id='rectangle125' class='rectangle125'>
+</div>
+<div id='<voltar' class='<voltar'>
+< VOLTAR</div>
+<div id='nomedojogo' class='nomedojogo'>
+nome do jogo</div>
+<div id='138' class='138'>
+1  </div>
+<div id='220' class='220'>
+2  </div>
+<div id='313' class='313'>
+3 </div>
+<div id='48' class='48'>
+4  </div>
+<div id='58' class='58'>
+5</div>
+<div id='620' class='620'>
+6</div>
+<div id='submeter' class='submeter'>
+SUBMETER</div>
+<div id='restam5pistas!' class='restam5pistas!'>
+RESTAM 5 PISTAS!</div>
+<div id='rectangle136' class='rectangle136'>
+</div>
+<div id='rectangle137' class='rectangle137'>
+</div>
+<div id='rectangle138' class='rectangle138'>
+</div>
+<div id='rectangle139' class='rectangle139'>
+</div>
+<div id='rectangle140' class='rectangle140'>
+</div>
+<div id='rectangle141' class='rectangle141'>
+</div>
+<div id='rectangle142' class='rectangle142'>
+</div>
+<div id='rectangle143' class='rectangle143'>
+</div>
+<div id='rectangle144' class='rectangle144'>
+</div>
+<div id='rectangle145' class='rectangle145'>
+</div>
+<div id='rectangle146' class='rectangle146'>
+</div>
+<div id='rectangle155' class='rectangle155'>
+</div>
+<div id='rectangle156' class='rectangle156'>
+</div>
+<div id='rectangle157' class='rectangle157'>
+</div>
+<div id='rectangle158' class='rectangle158'>
+</div>
+<div id='rectangle159' class='rectangle159'>
+</div>
+<div id='rectangle160' class='rectangle160'>
+</div>
+<div id='rectangle161' class='rectangle161'>
+</div>
+<div id='rectangle147' class='rectangle147'>
+</div>
+<div id='rectangle148' class='rectangle148'>
+</div>
+<div id='rectangle149' class='rectangle149'>
+</div>
+<div id='rectangle150' class='rectangle150'>
+</div>
+<div id='rectangle151' class='rectangle151'>
+</div>
+<div id='rectangle152' class='rectangle152'>
+</div>
+<div id='rectangle153' class='rectangle153'>
+</div>
+<div id='rectangle154' class='rectangle154'>
+</div>
+<div id='q2' class='q2'>
+Q</div>
+<div id='w' class='w'>
+W</div>
+<div id='e99' class='e99'>
+E</div>
+<div id='r100' class='r100'>
+R</div>
+<div id='t99' class='t99'>
+T</div>
+<div id='y' class='y'>
+Y</div>
+<div id='u3' class='u3'>
+U</div>
+<div id='i5' class='i5'>
+I</div>
+<div id='o5' class='o5'>
+O</div>
+<div id='p5' class='p5'>
+P</div>
+<div id='a100' class='a100'>
+A</div>
+<div id='s5' class='s5'>
+S</div>
+<div id='d3' class='d3'>
+D</div>
+<div id='f' class='f'>
+F</div>
+<div id='g96' class='g96'>
+G</div>
+<div id='h' class='h'>
+H</div>
+<div id='j3' class='j3'>
+J</div>
+<div id='k' class='k'>
+K</div>
+<div id='l97' class='l97'>
+L</div>
+<div id='z' class='z'>
+Z</div>
+<div id='x' class='x'>
+X</div>
+<div id='c96' class='c96'>
+C</div>
+<div id='v4' class='v4'>
+V</div>
+<div id='b3' class='b3'>
+B</div>
+<div id='n96' class='n96'>
+N</div>
+<div id='m5' class='m5'>
+M</div>
+</div>
+

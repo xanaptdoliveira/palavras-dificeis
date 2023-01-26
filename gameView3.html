@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <title>Projeto</title>
+  <link rel='stylesheet' href='Styles/gameStyles.css'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet"> 
+</head>
+
+<script>
+  var gameCached = 3;
+</script>
+
+<body>
+
+
+
+
+  <div class="Screen">
+
+    <div class="ScreenChild HeaderPanel">
+      <div class="HeaderElement back">
+        < Voltar 
+      </div>
+          <div class="HeaderElement title">
+            Palavras Difíceis
+          </div>
+          <div class="HeaderElement placeholder">
+
+          </div>
+
+      </div>
+      <div id="toImage" class="ScreenChild TipPanel">
+        <div id="TipContentTitle" class="TipElement Tip">
+          
+        </div>
+        <div id="TipContent" class="TipElement TipContent">
+          Prémio dado a quem apresenta objetos perdidos ou a quem dá uma noticia agradável
+        </div>
+
+
+      </div>
+
+      <div class="ScreenChild MissingTries">
+
+        <div class="MissingTriesElement Squares">
+          <div id="hint1" class="MissingTriesSquarePast">1</div>
+          <div id="hint2" class="MissingTriesSquareCurrent">2</div>
+          <div id="hint3" class="MissingTriesSquareEmpty">3</div>
+          <div id="hint4" class="MissingTriesSquareEmpty">4</div>
+          <div id="hint5" class="MissingTriesSquareEmpty">5</div>
+          <div id="hint6" class="MissingTriesSquareEmpty">6</div>
+        </div>
+
+        <div class="MissingTriesElement MissingTries">
+          Restam 5 pistas
+        </div>
+
+      </div>
+
+      <div class="ScreenChild GamePanel">
+
+        <div class="GamePanelElement Squares">
+          <div id="row1" class="GamePanelSquares Row">
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col1" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col2" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col3" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col4" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col5" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col6" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col7" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col8" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col9" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col10" maxlength="1" class="GamePanelSquare"/>
+          </div>
+
+          <div id="row2" class="GamePanelSquares Row">
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col1" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col2" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col3" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col4" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col5" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col6" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col7" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col8" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col9" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col10" maxlength="1" class="GamePanelSquare"/>
+          </div>
+          <div id="row3" class="GamePanelSquares Row">
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col1" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col2" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col3" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col4" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col5" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col6" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col7" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col8" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col9" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col10" maxlength="1" class="GamePanelSquare"/>
+          </div>
+          <div id="row4" class="GamePanelSquares Row">
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col1" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col2" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col3" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col4" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col5" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col6" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col7" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col8" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col9" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col10" maxlength="1" class="GamePanelSquare"/>
+          </div>
+          <div id="row5" class="GamePanelSquares Row">
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col1" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col2" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col3" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col4" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col5" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col6" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col7" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col8" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col9" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col10" maxlength="1" class="GamePanelSquare"/>
+          </div>
+          <div id="row6" class="GamePanelSquares Row">
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col1" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col2" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col3" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col4" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col5" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col6" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col7" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col8" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col9" maxlength="1" class="GamePanelSquare"/>
+            <input onkeydown="return /[a-z]/i.test(event.key)"  id="col10" maxlength="1" class="GamePanelSquare"/>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="ScreenChild Footer">
+        <div class="GamePanelSquares Row">
+          <div onclick='Submeter()' class="FooterSquareSubmeter" style="width: 120px;font-size: 11pt;cursor: pointer;">Submeter</div>
+        </div>
+        <div class="GamePanelSquares Row">
+          <div class="FooterSquare" >Q</div>
+          <div class="FooterSquare" >W</div>
+          <div class="FooterSquare" >E</div>
+          <div class="FooterSquare" >R</div>
+          <div class="FooterSquare" >T</div>
+          <div class="FooterSquare" >Y</div>
+          <div class="FooterSquare" >U</div>
+          <div class="FooterSquare" >I</div>
+          <div class="FooterSquare" >O</div>
+          <div class="FooterSquare" >P</div>
+        </div>
+        <div class="GamePanelSquares Row">
+          <div class="FooterSquare" >A</div>
+          <div class="FooterSquare" >S</div>
+          <div class="FooterSquare" >D</div>
+          <div class="FooterSquare" >F</div>
+          <div class="FooterSquare" >G</div>
+          <div class="FooterSquare" >H</div>
+          <div class="FooterSquare" >J</div>
+          <div class="FooterSquare" >K</div>
+          <div class="FooterSquare" >L</div>
+        </div>
+        <div class="GamePanelSquares Row">
+          <div class="FooterSquare" style="width: 60px;">enter</div>
+          <div class="FooterSquare" >Z</div>
+          <div class="FooterSquare" >X</div>
+          <div class="FooterSquare" >C</div>
+          <div class="FooterSquare" >V</div>
+          <div class="FooterSquare" >B</div>
+          <div class="FooterSquare" >N</div>
+          <div class="FooterSquare" >M</div>
+          <div class="FooterSquare" style="width: 60px;" ><<<</div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+    <script src='Scripts/jquery.js'></script>
+    <script src='Scripts/joinInputs.js'></script>
+    <script src='Scripts/script.js'></script>
+
+</body>
+
+</html>

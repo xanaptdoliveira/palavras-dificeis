@@ -1,20 +1,19 @@
 
-
-var CurrentGame = 1;
+var CurrentGame = parseInt(gameCached);
 
 var Currentrow = 1;
 
 
 let tipsArray = [
     ["ALVISSARAS", "Prêmio dado a quem apresenta objetos perdidos ou ao que dá uma notícia agradável.", "Expressão usada para exprimir contentamento por uma boa notícia.", "./Images/1.png", "Recompensa", "Epitimologia: árabe vulgar al-bixra, do árabe al-buxra", "Dão-se __ a quem encontrar o cão cinzento."],
-    ["DILAPIDARA", "Gastar de modo descontrolado aquilo que se possui.", "Causar destruição ou ruína.", "Esbanjar ", "./Images/2_1.png", "./Images/2_2.png", "Do latim delapido"],
-    ["EPITAFIOAA", "Escrito em louvor de pessoa falecida.", "Inscrição tumular.", "./Images/3_1.png", "./Images/3_2.png", "Elogio", "Do grego epitáphion, latim epitaphĭu-"]
+    ["MENDACIOSO", "Aquele que mente.", "Enganador; Falso.", "./Images/2_1.png", "./Images/2_2.png", "Ninguém seria capaz em acreditar num discurso tão __.", "Aquele conhecido ex-presidente é __."],
+    ["ZOOMORFICO", "Desenhos e gravuras que representam  animais.", "Rima com Idiomórfico.", "./Images/3_1.jpg", "./Images/3_2.png", "O seu aspecto__ assusta qualquer um.", "Relativo à zoomorfia."]
 ];
 
 let tipsTitleArray = [
     ["", "", "", "", "Sinónimo:", "Epitimologia:", ""],
-    ["", "", "", "Sinónimo:", "", "", "Epitimologia:"],
-    ["", "", "", "", "", "Sinónimo:", "Epitimologia:"]
+    ["", "Sinónimos", "", "", "", "", ""],
+    ["", "", "", "", "", "", ""]
 ];
 
 
@@ -51,10 +50,13 @@ function NewRow() {
         Currentrow++;
     }
     else {
-        CurrentGame++;
-        Currentrow = 1;
-        ClearInputs();
-        StartGame(tipsArray[CurrentGame - 1][0]);
+        // CurrentGame++;
+        // Currentrow = 1;
+        // ClearInputs();
+        // StartGame(tipsArray[CurrentGame - 1][0]);
+
+        alert("PERDEU");
+        document.location.href = 'mainView.html';
     }
 }
 
@@ -67,7 +69,7 @@ function ChangeTip() {
     $("#TipContentTitle").text("");
     $("#toImage").css("background-image", "none");
 
-    if (tip.endsWith("png")) {
+    if (tip.endsWith("png") || tip.endsWith("jpg")) {
 
         $("#toImage").css("background-image", "url(" + tip + ")");
 

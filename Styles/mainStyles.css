@@ -1,0 +1,165 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    min-height: 100vh; 
+
+    background-color: rgb(48, 48, 48);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.Screen {
+    width: 360px;
+    height: 780px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.ScreenChild {
+
+    width: 100%;
+
+}
+
+/* ---------------------------------------------------- */
+/*-------------------   TITLE DIV   ------------------- */
+/* ---------------------------------------------------- */
+
+.ScreenChild.TitleDiv {
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex:3;
+}
+
+.titleText{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------- */
+/*-------------------   Main Buttons DIV   ------------------- */
+/* ----------------------------------------------------------- */
+
+
+.ScreenChild.MainButtonsDiv {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex:2;
+}
+
+
+.mainButtons{
+    width: 65%;
+    border: 2px solid black;
+    border-radius: 3px;
+
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+
+    padding: 2px 0px;
+    margin: 10px 0px;
+}
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*-------------------   Secondary Buttons DIV   ------------------- */
+/* ---------------------------------------------------------------- */
+
+.ScreenChild.SecondaryButtonsDiv {
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    flex:1;
+    margin-bottom: 70px;
+}
+
+
+.secondaryButtons{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 3px;
+
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+
+    margin: 0px 10px;
+}
+
+
+/* ----------------------------------------------------------- */
+/*-------------------   Date Buttons DIV   ------------------- */
+/* ----------------------------------------------------------- */
+
+.ScreenChild.DateDiv {
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: flex-end;    
+    flex:1;
+    margin-bottom: 7px;
+    margin-left: -6px;
+}
+
+
+.dateButtons{
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid black;
+    border-radius: 3px;
+
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+
+    margin: 0px 5px;
+
+    cursor: pointer;
+}

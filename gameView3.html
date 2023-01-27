@@ -4,13 +4,17 @@
 <head>
   <meta charset='UTF-8' />
   <title>Projeto</title>
-  <link rel='stylesheet' href='Styles/style.css'>
+  <link rel='stylesheet' href='Styles/gameStyles.css'>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet"> 
 </head>
+
+<script>
+  var gameCached = 3;
+</script>
 
 <body>
 
@@ -19,8 +23,8 @@
 
   <div class="Screen">
 
-    <div class="ScreenChild HeaderPanel">
-      <div class="HeaderElement back">
+    <div class="ScreenChild HeaderPanel" >
+      <div class="HeaderElement back" onclick="document.location.href = 'mainView.html'">
         < Voltar 
       </div>
           <div class="HeaderElement title">

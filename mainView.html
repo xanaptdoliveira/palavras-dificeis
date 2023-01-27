@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <title>Projeto</title>  
+  <link rel='stylesheet' href='Styles/mainStyles.css'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+
+
+
+  <div class="Screen">
+
+    <div class="ScreenChild TitleDiv">
+
+        <div class="titleText">PALAVRAS DIFICEIS</div>
+
+    </div>
+
+    <div class="ScreenChild MainButtonsDiv">
+
+        <div id="onClickJogar" class="mainButtons" onclick ="document.location.href = 'gameView1.html'"> Palavra do Dia</div>
+        <div class="mainButtons"> Histórico de Palavras</div>
+
+
+    </div>
+
+    <div class="ScreenChild SecondaryButtonsDiv">
+        <div class="secondaryButtons" onclick="document.location.href = 'instrucoesView.html'">Instruções</div>
+        <div class="secondaryButtons" onclick="document.location.href = 'estatisticasView.html'"> Estatísticas</div>
+
+    </div>
+
+    <div class="ScreenChild DateDiv">
+        <input type="radio" name="rGroup" value="1" class="dateButtons" checked onclick="$('#onClickJogar').attr('onclick','document.location.href = \'gameView1.html\'');"/>
+        <input type="radio" name="rGroup" value="2" class="dateButtons" onclick="$('#onClickJogar').attr('onclick','document.location.href = \'gameView2.html\'');"/>
+        <input type="radio" name="rGroup" value="3" class="dateButtons" onclick="$('#onClickJogar').attr('onclick','document.location.href = \'gameView3.html\'');"/>
+
+    </div>
+
+
+  </div>
+ 
+
+
+    <script src='Scripts/jquery.js'></script>
+
+</body>
+
+</html>

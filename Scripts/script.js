@@ -118,6 +118,8 @@ function Submeter() {
 
     let i = 0;
 
+    var letrasCorretas = 0;
+
     inputs.each(function () {
 
         
@@ -129,18 +131,24 @@ function Submeter() {
 
         if (value === word[i]) {
             input.addClass("PreenchidoRight");
-            setLetterDone(value);
+            letrasCorretas++;
+
         } else if (word.includes(value)) {
             input.addClass("PreenchidoSemiRight");
         } else {
             input.addClass("PreenchidoWrong");
+            setLetterDone(value);
         }
 
         i++;
 
     });
 
-    
+    if (letrasCorretas == 10) 
+    {
+        alert("GANHOU");
+        document.location.href = 'mainView.html';
+    } 
 
 
 

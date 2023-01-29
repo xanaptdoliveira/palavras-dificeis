@@ -17,12 +17,31 @@ let tipsTitleArray = [
 ];
 
 
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    document.location.href = 'mainView.html';
+  }
+}
+
+
 //Start Page
 SetupJoinInputs()
 
 
 
+
 StartGame(tipsArray[CurrentGame - 1][0]);
+
+var GameOverImage = "./Images/perdeu"+CurrentGame+".png";
+var GameOverImageGanhou = "./Images/ganhou.png";
 
 
 
@@ -47,6 +66,18 @@ function NewRow() {
         EnableInput();
 
         ChangeTip();
+
+        var restam= 6-Currentrow;
+        if(restam == 1)
+        {
+            $("#restamPistas").text("Resta " + restam +" pista");
+
+        }
+        else
+        {
+        $("#restamPistas").text("Restam " + restam +" pistas");
+        }
+
         Currentrow++;
     }
     else {
@@ -55,8 +86,9 @@ function NewRow() {
         // ClearInputs();
         // StartGame(tipsArray[CurrentGame - 1][0]);
 
-        alert("PERDEU");
-        document.location.href = 'mainView.html';
+        $(".modal-content").css("background-image","url(" + GameOverImage +  ")");
+        modal.style.display = "block";
+        
     }
 }
 
@@ -146,8 +178,11 @@ function Submeter() {
 
     if (letrasCorretas == 10) 
     {
-        alert("GANHOU");
-        document.location.href = 'mainView.html';
+
+        $(".modal-content").css("background-image","url(" + GameOverImageGanhou +  ")");
+
+        modal.style.display = "block";
+
     } 
 
 

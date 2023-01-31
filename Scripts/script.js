@@ -6,12 +6,12 @@ var Currentrow = 1;
 
 let tipsArray = [
     ["ALVISSARAS", "Prémio dado a quem apresenta objetos perdidos ou ao que dá uma notícia agradável.", "Expressão usada para exprimir contentamento por uma boa notícia.", "./Images/1.png", "Recompensa", "Epitimologia: árabe vulgar al-bixra, do árabe al-buxra", "Dão-se __ a quem encontrar o cão cinzento."],
-    ["MENDACIOSO", "Aquele que mente.", "Enganador; Falso.", "./Images/2_1.png", "./Images/2_2.png", "Ninguém seria capaz em acreditar num discurso tão __.", "Aquele conhecido ex-presidente é __."],
-    ["ZOOMORFICO", "Desenhos e gravuras que representam  animais.", "Rima com Idiomórfico.", "./Images/3_1.jpg", "./Images/3_2.png", "O seu aspecto__ assusta qualquer um.", "Relativo à zoomorfia."]
+    ["MENDACIOSO", "Aquele que mente.", "Enganador; Falso.", "./Images/2_1.png", "./Images/2_2.png", "Ninguém seria capaz em acreditar num discurso tão ___________.", "Aquele conhecido ex-presidente é ____________."],
+    ["ZOOMORFICO", "Desenhos e gravuras que representam  animais.", "Rima com Idiomórfico.", "./Images/3_1.jpg", "./Images/3_2.png", "O seu aspecto_____________ assusta qualquer um.", "Relativo à zoomorfia."]
 ];
 
 let tipsTitleArray = [
-    ["", "", "", "", "Sinónimo:", "Epitimologia:", ""],
+    ["", "", "", "", "Sinónimo:", "Etimologia:", ""],
     ["", "Sinónimos", "", "", "", "", ""],
     ["", "", "", "", "", "", ""]
 ];
